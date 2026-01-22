@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StudentsApp" parent="Theme.AppCompat.Light">
+        <!-- Main system color -->
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/black</item>
+        
+        <!-- Customize the ActionBar color -->
+        <item name="actionBarStyle">@style/Widget.MyApp.ActionBar</item>
+    </style>
+
+    <style name="Widget.MyApp.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/primary_light</item>
+        <item name="titleTextStyle">@style/TextAppearance.MyApp.Title</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Title" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Theme.StudentsApp" parent="Base.Theme.StudentsApp" />
+</resources>

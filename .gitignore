@@ -1,0 +1,23 @@
+# Built artifacts
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.class
+
+# Gradle files
+.gradle/
+local.properties
+
+# IDE - Android Studio / IntelliJ
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+
+# Logs
+*.log
+
+# Kotlin temporary files
+.kotlin/
