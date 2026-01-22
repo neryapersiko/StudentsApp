@@ -4,6 +4,9 @@
 .externalNativeBuild
 .cxx
 *.class
+*.aab
+*.apk
+output-metadata.json
 
 # Gradle files
 .gradle/
@@ -21,3 +24,13 @@ local.properties
 
 # Kotlin temporary files
 .kotlin/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services
+google-services.json
+
+# Profiling
+*.hprof
